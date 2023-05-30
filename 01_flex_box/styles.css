@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin-inline: auto;
+    max-width: 800px;
+    min-height: 400px;
+    display: flex;
+    border: 1px solid black;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    align-content: center;
+    gap: 1rem;
+}
+
+.box {
+    min-width: 100px;
+    height: 100px;
+    background-color: black;
+    color: white;
+    font-size: 3rem;
+    padding: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
